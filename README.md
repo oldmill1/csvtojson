@@ -2,9 +2,12 @@ This is used in the process of creating a json file used with [`react-intl`](htt
 
 Say you receive a PO file from your translation service. "I can't use this" you say. I need it in JSON, in this format:
 
+```
 {
     "id": "test",
+    ...
 }
+```
 
 So you do `po2csv myFile.po translated.csv`.
 
